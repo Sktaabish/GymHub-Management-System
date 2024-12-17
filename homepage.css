@@ -1,0 +1,41 @@
+* {
+    margin: auto;
+    padding: 0;
+}
+
+.homepage_wrapper #banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #f87a04), url(img1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.homepage_wrapper .text {
+    color: white;
+    text-align: center;
+    padding-top: 180px;
+    font-family: cursive;
+    font-size: 35px;
+}
+
+.homepage_wrapper .button {
+    margin: 27px;
+    margin-left: 39%;
+}
+
+.homepage_wrapper .button a {
+    text-align: center;
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: #fff;
+    border: 1.5px solid #fff;
+    background: transparent;
+    cursor: pointer;
+}
+
+.homepage_wrapper .button a:hover {
+    transform: scale(1.01);
+}

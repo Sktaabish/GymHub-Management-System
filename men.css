@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.men_wrapper {
+    height: 100vh;
+    width: 100%;
+}
+
+.men_wrapper main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: -88%;
+}
+
+.men_wrapper .main {
+    flex: 1 1 257px;
+    border-bottom: 1px solid rgb(0 0 0/16%);
+    width: 178%;
+    height: 382px;
+}
+
+.men_wrapper .card {
+    padding: 10px 0px;
+    margin: 10px 5px;
+    border: none;
+}
+
+.men_wrapper .common-heading {
+    width: 100%;
+    padding: 17px 20px;
+    margin-top: 3px;
+    padding-bottom: 17px;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0/16%);
+}
+
+.men_wrapper .common-heading-left h1 {
+    font-size: 20px;
+    font-weight: 400;
+    padding: auto;
+}
+.men_wrapper .common-row {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    max-height: 366px;
+    margin: 10px 0px;
+    padding-bottom: 15px;
+}
+
+.men_wrapper .common-col {
+    text-align: center;
+    line-height: 22px;
+}
+
+.men_wrapper .common-col img {
+    width: 69px;
+    height: 150px;
+    transition: 300ms;
+}
+
+.men_wrapper .common-col img:hover {
+    transform: scale(1.1);
+}
+
+.men_wrapper .common-col h3 h4 h6 {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.men_wrapper .common-col h3 {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.men_wrapper .common-col h4 {
+    color: green;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.men_wrapper .common-col h6 {
+    color: gray;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.men_wrapper .col-deals img {
+    width: 190px;
+    height: 180px;
+}
+
+.men_wrapper #add-cart1 {
+    cursor: pointer;
+}
+
+.men_wrapper #add-cart1:hover {
+    color: #ec3f10;
+}

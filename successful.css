@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: auto;
+}
+
+.successful_wrapper{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.successful_wrapper .container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.successful_wrapper .msg {
+    width: 700px;
+    background-color: aliceblue;
+    text-align: center;
+    padding: 30px 30px;
+}
+
+.successful_wrapper .msg i {
+    margin-top: -90px;
+    color: rgb(23, 118, 81);
+}
+
+.successful_wrapper .msg h1 {
+    margin: 20px;
+}
+
+.successful_wrapper .msg h4 {
+    margin-bottom: 20px;
+}
+
+.successful_wrapper .btn {
+    text-align: center;
+    text-decoration: none;
+    background-color: #fc4512;
+    color: #000;
+}
+
+.successful_wrapper .btn:hover {
+    background-color: #e71212;
+}

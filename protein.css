@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.protein_wrapper {
+    height: 100vh;
+    width: 100%;
+}
+
+.protein_wrapper main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: -88%;
+}
+
+.protein_wrapper .main {
+    flex: 1 1 257px;
+    border-bottom: 1px solid rgb(0 0 0/16%);
+    width: 178%;
+    height: 382px;
+}
+
+.protein_wrapper .card {
+    padding: 10px 0px;
+    margin: 10px 5px;
+    border: none;
+}
+
+.protein_wrapper .common-heading {
+    width: 100%;
+    padding: 17px 20px;
+    margin-top: 3px;
+    padding-bottom: 17px;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0/16%);
+}
+
+.protein_wrapper .common-heading-left h1 {
+    font-size: 20px;
+    font-weight: 400;
+    padding: auto;
+}
+.protein_wrapper .common-row {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    max-height: 366px;
+    margin: 10px 0px;
+    padding-bottom: 15px;
+}
+
+.protein_wrapper .common-col {
+    text-align: center;
+    line-height: 22px;
+}
+
+.protein_wrapper .common-col img {
+    width: 69px;
+    height: 150px;
+    transition: 300ms;
+}
+
+.protein_wrapper .common-col img:hover {
+    transform: scale(1.1);
+}
+
+.protein_wrapper .common-col h3 h4 h6 {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.protein_wrapper .common-col h3 {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.protein_wrapper .common-col h4 {
+    color: green;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.protein_wrapper .common-col h6 {
+    color: gray;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.protein_wrapper .col-deals img {
+    width: 190px;
+    height: 180px;
+}
+
+.protein_wrapper #add-cart1 {
+    cursor: pointer;
+}
+
+.protein_wrapper #add-cart1:hover {
+    color: #ec3f10;
+}

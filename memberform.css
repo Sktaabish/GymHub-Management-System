@@ -1,0 +1,72 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.memberform_wrapper{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+}
+
+.memberform_wrapper p.heading {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    border-bottom: 1px solid #000;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+
+.memberform_wrapper .form {
+    width: 70%;
+    height: 79vh;
+    background: whitesmoke;
+    margin-top: 6rem;
+    border: 1px solid #000;
+}
+
+.memberform_wrapper .inputgrp {
+    margin-left: 35px;
+}
+
+.memberform_wrapper .input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.memberform_wrapper p.label {
+    margin-top: 45px;
+    font-size: 16px;
+}
+
+.memberform_wrapper input {
+    width: 136%;
+    height: 35px;
+    margin-bottom: 60px;
+    border-radius: 3px;
+}
+
+.memberform_wrapper .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.memberform_wrapper .pay {
+    width: 250px;
+    height: 35px;
+    background: #ff683f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+.memberform_wrapper .pay:hover{
+    background: #fc4512;
+    color: #000;
+}
