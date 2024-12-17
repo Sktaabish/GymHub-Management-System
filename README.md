@@ -4,11 +4,12 @@ Developed a GymHub Management System website that provides comprehensive members
 
 Additionally, the website includes a Products section in the navigation bar, showcasing a variety of gym-related items such as:
 
-Men's T-shirts
-Protein supplements
-Shakers
-Shoes
-Women's tops and T-shirts
-Yoga accessories
+*Men's T-shirts
+*Protein supplements
+*Shakers
+*Shoes
+*Women's tops and T-shirts
+*Yoga accessories
+
 This addition enhances the user experience by providing members with easy access to essential gym-related products, streamlining their fitness journey.
 
