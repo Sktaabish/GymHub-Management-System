@@ -1,0 +1,114 @@
+* {
+    margin: auto;
+    padding: 0;
+}
+
+.admin_wrapper .container {
+    max-width: 2000px;
+    margin: auto;
+    font-family: sans-serif;
+    background-color: #fff;
+}
+
+.admin_wrapper .side {
+    width: 15%;
+    height: 125vh;
+    margin-left: -14px;
+    position: absolute;
+    background-color: #fc4512;
+}
+
+.admin_wrapper p.p1 {
+    width: 90%;
+    color: #fff;
+    text-align: center;
+    margin-top: 25px;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+
+.admin_wrapper .logo {
+    margin-top: -39px;
+    margin-left: 8px;
+}
+
+.admin_wrapper img.logo {
+    width: 16%;
+}
+
+.admin_wrapper .dash {
+    text-align: center;
+}
+
+.admin_wrapper button#dash-page {
+    margin-top: 50px;
+    border: none;
+    background-color: #fc4512;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.admin_wrapper .icon {
+    margin-top: -26px;
+    margin-left: -109px;
+    color: #fff;
+    font-size: 19px;
+    margin-bottom: 5rem;
+}
+
+.admin_wrapper .register {
+    text-align: center;
+}
+
+.admin_wrapper button#register-page {
+    margin-top: 3rem;
+    border: none;
+    background-color: #fc4512;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.admin_wrapper .member {
+    text-align: center;
+}
+
+.admin_wrapper button#member-page {
+    margin-top: 3rem;
+    border: none;
+    background-color: #fc4512;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.admin_wrapper .upload {
+    text-align: center;
+}
+
+.admin_wrapper button#upload-page {
+    margin-top: 3rem;
+    border: none;
+    background-color: #fc4512;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.admin_wrapper p.logico {
+    text-align: center;
+    margin-top: 60%;
+    font-size: 25px;
+    rotate: 180deg;
+    color: #fff;
+}
+
+.admin_wrapper p.wel {
+    color: #000;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 144px;
+    font-weight: 550;
+}

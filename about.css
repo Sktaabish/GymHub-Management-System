@@ -1,0 +1,615 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Bruno+Ace+SC&family=Libre+Franklin:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&family=Poppins:wght@200&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: auto;
+  padding: 0;
+}
+
+.about_wrapper {
+  box-sizing: border-box;
+  /* font-family: 'Work Sans', sans-serif; */
+}
+
+/* topbar */
+.about_wrapper .timing {
+  background: #fc4512;
+  color: #fff;
+  padding-top: 5px;
+  text-align: right;
+  padding-right: 2%;
+}
+
+.about_wrapper .timing b {
+  font-size: large;
+}
+
+/* end of top bar */
+.about_wrapper .main-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/gym4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+
+/* logo */
+.about_wrapper .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  margin-top: 10px;
+  float: left;
+  border-radius: 5px;
+}
+
+/* end of logo */
+/* nevbar */
+.about_wrapper nav {
+  display: flex;
+}
+
+.about_wrapper nav ul {
+  float: right;
+}
+
+.about_wrapper nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 8px;
+}
+
+.about_wrapper nav ul li a {
+  color: #fff;
+  font-size: 17px;
+  padding: 6px 10px;
+  text-decoration: none;
+  position: relative;
+}
+
+.about_wrapper a.active,
+.about_wrapper a:hover {
+  color: #fc4512;
+  transition: .3s;
+}
+
+.about_wrapper nav ul li a::after {
+  content: '';
+  transition: all 0.3s;
+  height: 1px;
+  width: 0;
+  background-color: #fc4512;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.about_wrapper nav ul li a:hover::after {
+  width: 100%;
+}
+
+.about_wrapper .checkbtn {
+  font-size: 30px;
+  color: #fc4512;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+.about_wrapper #myNav {
+  display: none;
+}
+
+@media (max-width: 1080px) {
+  .about_wrapper nav ul li a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .about_wrapper .checkbtn {
+    display: block;
+  }
+
+  .about_wrapper ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+
+  .about_wrapper nav ul li {
+    display: block;
+    margin: 70px 0;
+    line-height: 30px;
+  }
+
+  .about_wrapper nav ul li a {
+    font-size: 20px;
+  }
+
+  .about_wrapper a:hover {
+    background: none;
+    color: #fc4512;
+  }
+
+  .about_wrapper #myNav:checked~ul {
+    left: 0;
+  }
+}
+
+/* end of nevbar  */
+/* title */
+.about_wrapper .title h1 {
+  color: #fff;
+  padding-top: 300px;
+  font-size: 70px;
+  font-style: italic;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+}
+
+/* end of title */
+/* MAIN */
+/* .about_wrapper .main {
+  background: linear-gradient(#000000, #1a0707, #3b0808);
+} */
+
+/* ABOUT */
+
+.about_wrapper .head {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 1000;
+  /* font-family:Arial, Helvetica, sans-serif; */
+}
+
+.about_wrapper .gym-info {
+  margin-top: 80px;
+}
+
+p.p1 {
+  text-decoration: bold;
+  text-align: center;
+  font-weight: 900;
+  font-size: xxx-large;
+}
+
+.about_wrapper .imgg {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.about_wrapper .imgg img {
+  width: 50%;
+  border-radius: 10px;
+}
+
+.about_wrapper .abt {
+  display: flex;
+  margin-left: 55%;
+}
+
+.about_wrapper .abt p {
+  margin-top: -83%;
+  font-size: 20px;
+}
+
+
+
+
+/* END OF ABOUT */
+
+
+/* Our Ambience */
+
+
+.about_wrapper .ambience {
+  margin-bottom: 3%;
+  margin-top: 141px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.about_wrapper .img-cont1 {
+  display: inline-block;
+}
+
+.about_wrapper .ambience .img1 {
+  border-radius: 9px;
+  width: 400px;
+  height: 56vh;
+  margin: 33px;
+  margin-left: 19px;
+  margin-top: 94px;
+  transition: .5s;
+}
+
+.about_wrapper .ambience .img2 {
+  border-radius: 9px;
+  width: 400px;
+  height: 56vh;
+  margin: 33px;
+  margin-left: 5px;
+  margin-top: 94px;
+  transition: .5s;
+}
+
+.about_wrapper .ambience .img3 {
+  border-radius: 9px;
+  width: 400px;
+  height: 56vh;
+  margin: 33px;
+  margin-left: 5px;
+  margin-top: 94px;
+  transition: .5s;
+}
+
+.about_wrapper .img-cont1 .about_wrapper .img1:hover,
+.about_wrapper .img2:hover,
+.about_wrapper .img3:hover,
+.about_wrapper .img4:hover,
+.about_wrapper .img5:hover,
+.about_wrapper .img6:hover,
+.about_wrapper .img7:hover,
+.about_wrapper .img8:hover,
+.about_wrapper .img9:hover {
+  border: 5px solid #000000, #000000;
+  box-shadow: 0 0 50px #242020, inset 0 0 50px #000000;
+  background: linear-gradient(#050505, #000000);
+}
+
+.about_wrapper .ambience .img4 {
+  border-radius: 9px;
+  width: 400px;
+  height: 56vh;
+  margin: 33px;
+  margin-left: 19px;
+  margin-top: 94px;
+  transition: .5s;
+}
+
+
+.about_wrapper .ambience .img5 {
+  border-radius: 9px;
+  width: 400px;
+  height: 56vh;
+  margin: 33px;
+  margin-left: 5px;
+  margin-top: 94px;
+  transition: .5s;
+}
+
+.about_wrapper .ambience .img6 {
+  border-radius: 9px;
+  width: 400px;
+  height: 56vh;
+  margin: 33px;
+  margin-left: 5px;
+  margin-top: 94px;
+  transition: .5s;
+}
+
+.about_wrapper .ambience .img7 {
+  border-radius: 9px;
+  width: 400px;
+  height: 56vh;
+  margin: 33px;
+  margin-left: 19px;
+  margin-top: 94px;
+  transition: .5s;
+}
+
+.about_wrapper .ambience .img8 {
+  border-radius: 9px;
+  width: 400px;
+  height: 56vh;
+  margin: 33px;
+  margin-left: 5px;
+  margin-top: 94px;
+  transition: .5s;
+}
+
+.about_wrapper .ambience .img9 {
+  border-radius: 9px;
+  width: 400px;
+  height: 56vh;
+  margin: 33px;
+  margin-left: 5px;
+  margin-top: 94px;
+  transition: .5s;
+}
+
+/* end */
+/* card */
+
+.about_wrapper .heading {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 56px;
+  font-weight: 1000;
+}
+
+.about_wrapper .card {
+  display: inline-block;
+  height: 394px;
+  width: 325px;
+  margin: 61px;
+  margin-top: 8%;
+  margin-bottom: 12%;
+  box-shadow: 5px 5px 20px black;
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+.about_wrapper .img img {
+  height: 392px;
+  width: 326px;
+  border-radius: 4px;
+  transition: .5s;
+}
+
+.about_wrapper .info {
+  height: 115px;
+  width: 326px;
+  padding: 3px;
+  box-sizing: border-box;
+  position: absolute;
+  /* bottom: 240px; */
+  top: -216px;
+  background: rgba(27, 27, 27, .8);
+  color: #fff;
+  transition: .5s;
+}
+
+
+.about_wrapper .info h2 {
+  font-size: 40px;
+  margin-left: 7px;
+}
+
+.about_wrapper .info p {
+  font-size: 14px;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.about_wrapper .card:hover {
+  cursor: pointer;
+}
+
+.about_wrapper .card:hover .info {
+  height: 130px;
+  top: 262px;
+}
+
+.about_wrapper .card:hover p {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* .about_wrapper .card:hover img{
+  transform: scale(0.9) rotate(3deg);
+} */
+
+
+/* end  */
+/* footer */
+.about_wrapper .bottom-section {
+  background: #000;
+}
+
+.about_wrapper .navigate {
+  text-align: center;
+  display: flex;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.about_wrapper .navigate b {
+  color: white;
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+
+.about_wrapper .navigate-link {
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.about_wrapper .navigate-link:hover {
+  color: #fc4512;
+}
+
+.about_wrapper .navigate-itam a:hover {
+  color: #fff;
+}
+
+/* footer */
+.footer_section .footer {
+  height: 12%;
+  background-color: #000;
+  display: flex;
+  padding: 0px;
+}
+
+.footer_section .fcontainer1 {
+  padding: 0px;
+  margin: 0px;
+  width: 40%;
+  color: white;
+  border-right: 0.1px #f0f0f081 solid;
+}
+
+.footer_section .fcontainer1:hover {
+  background-image: linear-gradient(180deg,
+      rgba(255, 255, 255, 0.226),
+      transparent);
+  border-right: 0.1px white solid;
+}
+
+.footer_section ::selection {
+  color: plum;
+}
+
+.footer_section .fcontainer1 img {
+  width: 190px;
+  margin-top: 3%;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.footer_section .fcontainer1 h2 {
+  color: white;
+  margin-left: 10px;
+  margin-top: 70px;
+  padding-left: 20px;
+}
+
+.footer_section .fcontainer1 p {
+  color: rgba(240, 248, 255, 0.671);
+  word-wrap: break-word;
+  max-width: 50ch;
+  margin-left: 10px;
+  padding-top: 20px;
+  padding-right: 5px;
+  padding-left: 20px;
+  font-size: 17px;
+}
+
+.footer_section .fcontainer1 .time {
+  float: left;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.footer_section .fcontainer1 .time h3 {
+  text-align: left;
+  position: relative;
+  top: 20px;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.footer_section .fcontainer1 .time p {
+  margin-bottom: 45px;
+  text-align: left;
+}
+
+.footer_section .fcontainer1 h3:hover {
+  top: 0px;
+}
+
+.footer_section .fcontainer2 {
+  margin: 0px;
+  padding: 0px;
+  width: 30%;
+  color: white;
+  border-right: 0.1px #f0f0f081 solid;
+}
+
+.footer_section .fcontainer2:hover {
+  background-image: linear-gradient(180deg,
+      rgba(255, 255, 255, 0.226),
+      transparent);
+  border-right: 0.1px white solid;
+}
+
+.footer_section .fcontainer2 h2 {
+  text-align: left;
+  position: relative;
+  top: 20px;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.footer_section .fcontainer2 h2:hover {
+  top: 0px;
+}
+
+.footer_section ul.list {
+  color: white;
+  margin-top: 19%;
+  padding: 5%;
+  list-style: none;
+}
+
+.footer_section ul.list a {
+  color: white;
+  text-decoration: none;
+  font-size: large;
+}
+
+.footer_section ul.list li {
+  margin-top: 15px;
+  text-decoration: none;
+}
+
+
+.footer_section .fcontainer3 {
+  margin: 0px;
+  padding: 0px;
+  width: 30%;
+  color: white;
+  border-right: 0.1px #f0f0f081 solid;
+}
+
+
+.footer_section .fcontainer3:hover {
+  background-image: linear-gradient(180deg,
+      rgba(255, 255, 255, 0.226),
+      transparent);
+}
+
+.footer_section .fcontainer3 h2 {
+  text-align: left;
+  position: relative;
+  top: 20px;
+  transition: all 0.3s ease;
+  padding: 20px;
+}
+
+.footer_section .fcontainer3 h2:hover {
+  top: 0px;
+}
+
+.footer_section ul.Sociallist {
+  margin-top: 19%;
+  padding: 5%;
+  list-style: none;
+  line-height: 75px;
+}
+
+.footer_section ul.Sociallist a {
+  color: white;
+  text-decoration: none;
+  font-size: 23px;
+}
+
+.footer_section ul.Sociallist a i {
+  font-size: 30px;
+}
+
+.footer_section ul.Sociallist li {
+  margin-top: 15px;
+}
+
+.footer_section .fcontainer3 .Sociallist .Socials img {
+  width: 20px;
+}
+
+.footer_section .Socials {
+  margin-left: 72px;
+  margin-top: -147px;
+  line-height: 19px;
+}
+
+/* end of footer */

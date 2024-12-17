@@ -1,0 +1,73 @@
+* {
+    margin: auto;
+    padding: 0;
+}
+
+.benefits_wrapper {
+    background-color: #000;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+.benefits_wrapper .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    float: left;
+    border-radius: 5px;
+}
+
+.benefits_wrapper .popup {
+    width: 700px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    padding: 30px 30px;
+    transition: transsform 0.4s, top 0.4s;
+}
+
+
+.benefits_wrapper .popup h1 {
+    color: #fc4512;
+}
+
+.benefits_wrapper .popup p {
+    font-weight: 600;
+    color: #000;
+}
+
+.benefits_wrapper .popup h5 {
+    font-weight: 600;
+    color: #000;
+}
+
+.benefits_wrapper .popup h5 span {
+    color: #fc4512;
+}
+
+.benefits_wrapper .button {
+    padding-top: 20px;
+    font-size: x-large;
+}
+
+.benefits_wrapper .btnn {
+    padding: 7px 7px;
+    border-radius: 5px;
+    background-color: #fc4512;
+    color: #000;
+    font-weight: 500;
+    word-spacing: 2px;
+    font-family: 'Plateia';
+    text-decoration: none;
+}
+
+.benefits_wrapper .btnn:hover {
+    background-color: #ef1a1a;
+}
