@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.upload_wrapper .head {
+    text-align: center;
+    font-size: 26px;
+    letter-spacing: 3px;
+    margin-bottom: -20px;
+    background: #fc4512;
+    color: #fff;
+    height: 7vh;
+}
+
+.upload_wrapper p.heading {
+    padding: 10px;
+}
+
+/*======BACK-BUTTON=====*/
+
+.upload_wrapper .back {
+    margin-top: 2rem;
+    margin-left: 35px;
+}
+
+.upload_wrapper button {
+    border: none;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+/*======ICONS=====*/
+
+.upload_wrapper .icons {
+    margin-left: -21px;
+    margin-top: -22px;
+    font-size: 18px;
+}
+
+.upload_wrapper a {
+    color: #000;
+    cursor: pointer;
+}
+
+
+.upload_wrapper section#upload_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -67px;
+}
+
+.upload_wrapper form {
+    width: 20%;
+    margin-top: 14%;
+}
+
+.upload_wrapper input {
+    width: 150%;
+    height: 45px;
+    margin-bottom: 14px;
+    border-radius: 5px;
+}
+
+.upload_wrapper button#choose {
+    width: 150%;
+    height: 45px;
+    margin-bottom: 14px;
+    border-radius: 5px;
+    background: #ff683f;
+    cursor: pointer;
+}
+
+.upload_wrapper button#choose:hover{
+    background: #fc4512;
+    color: #000;
+}
+
+.upload_wrapper input[type="submit"] {
+    background: #242424fa;
+    color: #fff;
+    cursor: pointer;
+}
+
+.upload_wrapper input[type="submit"]:hover{
+    background: #000;
+    color: #fff;
+}
+
+.upload_wrapper input::placeholder{
+    text-align: center;
+    margin-left: 68%;
+    letter-spacing: 1px;
+}

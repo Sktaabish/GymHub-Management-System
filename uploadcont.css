@@ -1,0 +1,85 @@
+* {
+    margin: auto;
+    padding: 0;
+}
+
+.uploadcont_wrapper {
+    width: 100%;
+    height: 100vh;
+    margin-top: -57px;
+}
+
+.uploadcont_wrapper p.heading {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+    font-weight: 550;
+    margin-left: 14%;
+}
+
+.uploadcont_wrapper .main {
+    display: flex;
+    flex-direction: row;
+}
+
+.uploadcont_wrapper .container {
+    margin-top: 6%;
+    margin-left: 15%;
+}
+
+.uploadcont_wrapper .container1 {
+    display: flex;
+    margin-top: -50px;
+    margin-bottom: 65px;
+}
+
+.uploadcont_wrapper .container2 {
+    display: flex;
+    margin-bottom: 65px;
+}
+
+.uploadcont_wrapper .container3 {
+    display: flex;
+}
+
+.uploadcont_wrapper .cont {
+    width: 20%;
+    height: 29vh;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+.uploadcont_wrapper h4 {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.uploadcont_wrapper p.total {
+    margin-top: 20px;
+    font-size: 37px;
+    text-align: center;
+}
+
+.uploadcont_wrapper .button {
+    margin-top: -7px;
+    margin-left: 59px;
+}
+
+.uploadcont_wrapper button.design {
+    border: none;
+    width: 65%;
+    background: #ff683f;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 45px;
+    line-height: 17.1px;
+    cursor: pointer;
+}
+
+.uploadcont_wrapper button.design:hover {
+    background: #ff683f;
+    color: #000;
+}
